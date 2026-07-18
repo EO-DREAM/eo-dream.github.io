@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EO-DREAM | Earth Observation for Disaster Response</title>
+
+    <meta name="description"
+        content="EO-DREAM is an open-source modular framework for Disaster Risk Management using Earth Observation.">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- =======================
+            Navigation
+    ======================== -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+
+                <img src="assets/images/logo.svg" alt="EO-DREAM Logo">
+
+                <span>EO-DREAM</span>
+
+            </div>
+
+            <ul>
+
+                <li><a href="#mission">Mission</a></li>
+
+                <li><a href="#framework">Framework</a></li>
+
+                <li><a href="#modules">Modules</a></li>
+
+                <li><a href="#roadmap">Roadmap</a></li>
+
+                <li>
+                    <a href="https://github.com/EO-DREAM" target="_blank">
+                        GitHub
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- =======================
+                Hero
+    ======================== -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <img src="assets/images/logo.svg" class="hero-logo" alt="EO-DREAM">
+
+            <h1>EO-DREAM</h1>
+
+            <h2>
+                Earth Observation for Disaster Response,
+                Evaluation & Monitoring
+            </h2>
+
+            <p>
+
+                An open-source modular framework transforming satellite imagery
+                into actionable disaster intelligence.
+
+            </p>
+
+            <a href="#mission" class="button">
+
+                Explore the Framework
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =======================
+                Mission
+    ======================== -->
+
+    <section id="mission">
+
+        <div class="container">
+
+            <span class="section-tag">Mission</span>
+
+            <h2>Making Earth Observation Accessible for Disaster Risk Management</h2>
+
+            <p class="section-description">
+
+                EO-DREAM is an open-source framework designed to simplify the use of
+                satellite imagery for Disaster Risk Management. Through standardized,
+                reproducible workflows and modular hazard analysis, EO-DREAM enables
+                students, researchers, and operational agencies to transform Earth
+                Observation data into actionable information.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =======================
+            Framework
+    ======================== -->
+
+    <section id="framework" class="framework">
+
+        <div class="container">
+
+            <span class="section-tag">Framework</span>
+
+            <h2>From Satellite Data to Decision Support</h2>
+
+            <p class="section-description">
+
+                EO-DREAM follows a standardized processing pipeline that combines
+                open satellite data with modular hazard-specific analysis,
+                producing reproducible and operational outputs.
+
+            </p>
+
+            <div class="workflow">
+
+                <div class="step">
+
+                    <div class="step-number">1</div>
+
+                    <h3>Data Acquisition</h3>
+
+                    <p>
+
+                        Retrieve freely available Earth Observation data and
+                        supporting datasets.
+
+                    </p>
+
+                    <span>Sentinel • Landsat • DEM</span>
+
+                </div>
+
+                <div class="arrow">→</div>
+
+                <div class="step">
+
+                    <div class="step-number">2</div>
+
+                    <h3>EO-DREAM Core</h3>
+
+                    <p>
+
+                        Standardized preprocessing including image selection,
+                        clipping, cloud masking, mosaicking and preparation.
+
+                    </p>
+
+                </div>
+
+                <div class="arrow">→</div>
+
+                <div class="step">
+
+                    <div class="step-number">3</div>
+
+                    <h3>Hazard Modules</h3>
+
+                    <p>
+
+                        Hazard-specific workflows for Floods, Wildfires,
+                        Coastal Hazards and future modules.
+
+                    </p>
+
+                </div>
+
+                <div class="arrow">→</div>
+
+                <div class="step">
+
+                    <div class="step-number">4</div>
+
+                    <h3>Outputs</h3>
+
+                    <p>
+
+                        Interactive maps, GIS layers,
+                        statistics and downloadable reports.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Placeholder -->
+
+    <section id="modules">
+
+    <div class="container">
+
+        <span class="section-tag">Modules</span>
+
+        <h2>Hazard Analysis Modules</h2>
+
+        <p class="section-description">
+
+            EO-DREAM is designed around independent hazard modules that share a
+            common processing workflow. New modules can be added without changing
+            the EO-DREAM Core.
+
+        </p>
+
+        <div class="modules-grid">
+
+            <div class="module-card active">
+
+                <h3>🌊 Flood</h3>
+
+                <p>
+                    Detection of flooded areas using optical and radar imagery,
+                    including change analysis and affected area statistics.
+                </p>
+
+                <span>Prototype</span>
+
+            </div>
+
+            <div class="module-card">
+
+                <h3>🔥 Wildfire</h3>
+
+                <p>
+                    Burn scar mapping and vegetation impact assessment using
+                    spectral indices.
+                </p>
+
+                <span>Coming Soon</span>
+
+            </div>
+
+            <div class="module-card">
+
+                <h3>🏖 Coastal</h3>
+
+                <p>
+                    Shoreline extraction, erosion monitoring and coastal
+                    change detection.
+                </p>
+
+                <span>Coming Soon</span>
+
+            </div>
+
+            <div class="module-card">
+
+                <h3>⛰ Landslide</h3>
+
+                <p>
+                    Terrain instability analysis combining topography,
+                    vegetation and satellite observations.
+                </p>
+
+                <span>Coming Soon</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <section id="roadmap" class="roadmap">
+
+    <div class="container">
+
+        <span class="section-tag">Mission Timeline</span>
+
+        <h2>The Road Ahead</h2>
+
+        <p class="section-description">
+            EO-DREAM is being developed as a long-term open-source framework.
+            Each milestone expands its capabilities while maintaining a
+            standardized and reproducible workflow.
+        </p>
+
+        <div class="timeline">
+
+            <div class="timeline-item completed">
+                <div class="year">2026</div>
+
+                <ul>
+                    <li>✓ EO-DREAM Organization</li>
+                    <li>✓ Website Launch</li>
+                    <li>✓ Framework Design</li>
+                    <li>✓ Flood Module Prototype</li>
+                </ul>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <div class="year">2027</div>
+
+                <ul>
+                    <li>Wildfire Module</li>
+                    <li>Coastal Module</li>
+                    <li>Landslide Module</li>
+                    <li>Validation Workflows</li>
+                </ul>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <div class="year">Future</div>
+
+                <ul>
+                    <li>Multi-Hazard Analysis</li>
+                    <li>Interactive Dashboard</li>
+                    <li>AI-Assisted Processing</li>
+                    <li>Community Contributions</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="cta">
+
+    <div class="container">
+
+        <h2>Join the Mission</h2>
+
+        <p>
+
+            EO-DREAM is an open-source initiative dedicated to advancing
+            Earth Observation for Disaster Risk Management.
+
+            Researchers, students, developers and operational users are
+            invited to explore, contribute and help shape the future
+            of the framework.
+
+        </p>
+
+        <div class="buttons">
+
+            <a href="https://github.com/EO-DREAM" class="button">
+
+                View on GitHub
+
+            </a>
+
+            <a href="#" class="button secondary">
+
+                Documentation
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

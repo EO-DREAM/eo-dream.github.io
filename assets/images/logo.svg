@@ -1,0 +1,19 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>EO-DREAM logo</title>
+<desc>Circular navy badge with a golden orbit ring arcing over the top, and EO above DREAM in white letters</desc>
+
+<circle cx="150" cy="150" r="145" fill="#0A2540"/>
+
+<!-- Orbit ring mark -->
+<g transform="translate(150,95)">
+  <ellipse cx="0" cy="0" rx="78" ry="28" fill="none" stroke="#D4A017" stroke-width="6" transform="rotate(-12)"/>
+  <circle cx="69" cy="-10" r="7" fill="#D4A017" transform="rotate(-12)"/>
+</g>
+
+<!-- EO -->
+<text x="150" y="168" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="700" letter-spacing="2" fill="#FFFFFF">EO</text>
+
+<!-- DREAM -->
+<text x="150" y="210" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" letter-spacing="3" fill="#FFFFFF">DREAM</text>
+
+</svg>
